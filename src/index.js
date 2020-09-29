@@ -5,9 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+  // what do I want to render (a single element)
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // where do I want o render
   document.getElementById('root')
 );
 
